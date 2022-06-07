@@ -1,7 +1,11 @@
 @tailwind base;
 @layer base {
-    a {
+    p a,
+    main a {
       @apply text-blue-sky underline;
+    }
+    main img {
+      @apply drop-shadow-md
     }
   }
 @tailwind components;
