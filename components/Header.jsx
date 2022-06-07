@@ -30,8 +30,7 @@ const Header = ({ page }) => {
                                 <li><a className={"px-5 py-3 block hover:bg-blue-sky group-hover:text-white " + (isBird ? 'bg-blue-sky' : '')} href="./bird.html">Birds</a></li>
                             </ul>
                         </li>
-                        <li><a className={" hover:bg-midnight-blue hover:text-white flex items-center px-6 whitespace-nowrap h-full " + (isContact ? 'bg-midnight-blue text-white' : 'text-black')}href="./contact.html">Contact Us</a></li>
-                        <li><a className="text-black flex hover:bg-midnight-blue hover:text-white items-center px-6  h-full" href="#">FAQ</a></li>
+                        <li><a className={" hover:bg-midnight-blue hover:text-white flex items-center px-5 whitespace-nowrap h-full " + (isContact ? 'bg-midnight-blue text-white' : 'text-black')} href="./contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
             </header>
