@@ -1,12 +1,15 @@
-@tailwind base;
-@layer base {
-    p a,
-    main a {
-      @apply text-blue-sky underline;
-    }
-    main img {
-      @apply drop-shadow-md
-    }
-  }
-@tailwind components;
-@tailwind utilities
+/* @tailwind base; */
+/* @layer base { */
+/*     p a, */
+/*     main a { */
+/*       @apply underline; */
+/*     } */
+/*     main img { */
+/*       @apply drop-shadow-md */
+/*     } */
+/*   } */
+/* @tailwind components; */
+/* @tailwind utilities; */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
