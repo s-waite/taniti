@@ -1,10 +1,10 @@
+import Layout from "../components/Layout";
+
 function Index() {
     return (
-        <div>
-            <h1 className="bg-red-400">Test2</h1>
-            <img src="/adultcat.jpg" />
-
-        </div>
+        <Layout src="/topbeach.jpg" title="Explore Taniti" color="black">
+           TEKJKDSLFKDSLJ 
+        </Layout>
     )
 }
 
