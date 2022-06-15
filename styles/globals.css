@@ -11,5 +11,10 @@
 /* @tailwind components; */
 /* @tailwind utilities; */
 @import 'tailwindcss/base';
+@layer base {
+    * {
+        @apply font-serif;
+    }
+}
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
