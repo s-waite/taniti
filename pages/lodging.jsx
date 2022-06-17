@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 export default function Lodging() {
     return (
-        <Layout src="/hero/lodging.jpg" title="Lodging" color="white">
+        <Layout src="/hero/lodging.jpg" pageTitle="Lodging" textColor="white">
             <h2 className="">
                 Lodging on Taniti
             </h2>
