@@ -15,6 +15,10 @@
     * {
         @apply font-serif;
     }
+
+    h2 {
+        @apply text-2xl !important;
+    }
 }
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';

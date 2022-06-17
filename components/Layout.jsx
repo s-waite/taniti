@@ -9,7 +9,7 @@ export default function Layout({ src, title, color, children }) {
             <div className='w-full h-[500px] relative'>
                 <Navigation color={color} className="absolute"></Navigation>
                 <Image src={src} layout='fill' objectFit='cover' className='-z-20'></Image>
-                <h1 className="left-8 absolute text-9xl top-28 font-['Amatic_SC']">{title}</h1>
+                <h1 className={ `left-8 absolute text-9xl top-28 font-["Amatic_SC"] text-${color} shadow-2xl` }>{title}</h1>
             </div>
         <div className="flex justify-center">
             <div className="w-4/5 flex flex-col items-center">
