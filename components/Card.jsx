@@ -11,8 +11,8 @@ export default function Card({ src, alt, children, title }) {
                 </div>
                 </div>
                 <div className="group flex flex-col gap-3 p-6">
-                    <h3 className="text-2xl">{title}</h3>
-                    <p className="font-['Josefin_Sans'] font-bold">{children}</p>
+                    <h3 className="text-2xl font-['Josefin_Sans'] font-bold">{title}</h3>
+                    <p className="font-['Josefin_Sans'] font-thin">{children}</p>
                     <button className="w-1/2 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Website</button>
                 </div>
             </div>

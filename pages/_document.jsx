@@ -10,6 +10,7 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet" />
         </Head>
         <body>

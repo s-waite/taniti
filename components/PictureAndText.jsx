@@ -17,7 +17,7 @@ export default function PictureAndText({ side, children, src, alt, title }) {
         </div>
 
     const text =
-        <div className="text-xl font-['Josefin_Sans'] leading-relaxed">
+        <div className="text-xl font-['Josefin_Sans'] leading-relaxed font-thin">
             {children}
         </div>
 
