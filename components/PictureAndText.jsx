@@ -17,11 +17,11 @@ export default function PictureAndText({ side, children, src, alt, title }) {
         </div>
 
     const text =
-        <div className="text-xl leading-relaxed">
+        <div className="text-xl font-['Josefin_Sans'] leading-relaxed">
             {children}
         </div>
 
-    const myTitle = <h1 className="text-2xl font-semibold font-serif">{title}</h1>
+    const myTitle = <h1 className='text-5xl font-["Amatic_SC"] text-shadow-md'>{title}</h1>
 
     if (side === "left") {
         return (

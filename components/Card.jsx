@@ -12,7 +12,7 @@ export default function Card({ src, alt, children, title }) {
                 </div>
                 <div className="group flex flex-col gap-3 p-6">
                     <h3 className="text-2xl">{title}</h3>
-                    <p className="">{children}</p>
+                    <p className="font-['Josefin_Sans'] font-bold">{children}</p>
                     <button className="w-1/2 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Website</button>
                 </div>
             </div>
