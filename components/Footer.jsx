@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="flex gap-12">
                 <Link href="/">Home</Link>
                 |
-                <Link href="/FAQ">FAQ</Link>
+                <Link href="/faq">FAQ</Link>
                 |
                 <Link href="/Contact">Contact Us</Link>
             </div>
