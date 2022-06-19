@@ -6,8 +6,8 @@ function Navigation({ textColor, textShadow }) {
            <div className='px-5 z-50'><Link className='' href="/">Home</Link></div>
            <div className='px-5 z-50'><Link href="/attractions">Attractions</Link></div> 
            <div className='px-5 z-50'><Link href="/lodging">Lodging</Link></div> 
-           <div className='px-5 z-50'><Link href="/">Food</Link></div> 
-           <div className='px-5 z-50'><Link href="/">Getting Around</Link></div> 
+           <div className='px-5 z-50'><Link href="/food">Food</Link></div> 
+           <div className='px-5 z-50'><Link href="/transportation">Transportation</Link></div> 
         </div>
     )
 }

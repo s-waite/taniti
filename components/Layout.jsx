@@ -14,7 +14,7 @@ export default function Layout({ src, pageTitle , textColor, children }) {
         <div>
             <div className='w-full h-[500px] relative'>
                 <Navigation textColor={textColor} className={`absolute`} textShadow={textShadow}></Navigation>
-                <Image src={src} layout='fill' objectFit='cover' className='-z-20'></Image>
+                <Image priority src={src} layout='fill' objectFit='cover' className='-z-20'></Image>
                 <h1 className={ `left-8 absolute text-9xl top-28 font-["Amatic_SC"] text-${textColor} text-shadow` }>{pageTitle}</h1>
             </div>
         <div className="flex justify-center">
